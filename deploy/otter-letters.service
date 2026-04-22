@@ -1,0 +1,8 @@
+[Unit]
+Description=Update otter letters
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/otter-letters --output /var/www/boydt.org/www/lyles/today
+User=otter-letters
+Group=otter-letters

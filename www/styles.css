@@ -1,0 +1,50 @@
+html, body {
+    touch-action: manipulation;
+    background: rgb(62, 171, 93);
+    color: white;
+    font-family: "Source Code Pro", monospace;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    overflow: hidden;
+    padding: 0px;
+    text-align: center;
+}
+
+h1 {
+    padding: 32px 0px 32px 0px;
+}
+
+canvas {
+    display: block;
+    width: 100%;
+}
+
+button {
+    background-color:transparent;
+    border-radius:0px;
+    border:none;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:24px;
+    font-weight: 400;
+    padding:16px 16px;
+    text-decoration:none;
+}
+
+button:hover {
+}
+
+button:active {
+}
+
+p {
+    padding: 16px;
+    margin: 0px;
+    font-size: 22px;
+    font-weight: bold;
+}
